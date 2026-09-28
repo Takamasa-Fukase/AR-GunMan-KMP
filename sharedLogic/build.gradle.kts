@@ -3,6 +3,7 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidMultiplatformLibrary)
+    kotlin("plugin.serialization") version "2.0.0"
 }
 
 kotlin {
@@ -36,6 +37,11 @@ kotlin {
         commonMain.dependencies {
             // put your Multiplatform dependencies here
             implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+            implementation("dev.gitlive:firebase-firestore:1.13.0")
+            implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
+        }
+        androidMain.dependencies {
+            implementation(project.dependencies.platform("com.google.firebase:firebase-bom:33.1.2"))
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
