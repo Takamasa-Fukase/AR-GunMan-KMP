@@ -1,6 +1,5 @@
 package com.takamasafukase.ar_gunman_kmp.presentation.presenters.result
 
-import com.takamasafukase.ar_gunman_kmp.deviceInterface.sound.SoundPlayerInterface
 import com.takamasafukase.ar_gunman_kmp.domain.entities.ranking.RankingItem
 import com.takamasafukase.ar_gunman_kmp.domain.storeInterfaces.RankingStoreInterface
 import com.takamasafukase.ar_gunman_kmp.domain.useCases.RankingGetUseCaseInterface
@@ -18,7 +17,6 @@ import kotlinx.coroutines.launch
 class ResultPresenter(
     val score: Double,
     private val coroutineScope: CoroutineScope,
-    private val soundPlayer: SoundPlayerInterface,
     private val rankingGetUseCase: RankingGetUseCaseInterface,
     private val rankingStore: RankingStoreInterface,
 ) {
