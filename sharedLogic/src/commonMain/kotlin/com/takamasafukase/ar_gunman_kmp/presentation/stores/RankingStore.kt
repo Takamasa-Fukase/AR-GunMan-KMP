@@ -1,0 +1,20 @@
+package com.takamasafukase.ar_gunman_kmp.presentation.stores
+
+import com.takamasafukase.ar_gunman_kmp.domain.entities.ranking.Ranking
+import com.takamasafukase.ar_gunman_kmp.domain.storeInterfaces.RankingStoreInterface
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+
+object RankingStore : RankingStoreInterface {
+    override val ranking: StateFlow<Ranking?> get() = _ranking.asStateFlow()
+    private val _ranking = MutableStateFlow<Ranking?>(value = null)
+
+    override fun updateRanking(value: Ranking?) {
+        _ranking.value = value
+    }
+
+    override fun reset() {
+        _ranking.value = null
+    }
+}
