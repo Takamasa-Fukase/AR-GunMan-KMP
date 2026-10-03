@@ -1,4 +1,4 @@
-package com.takamasafukase.ar_gunman_kmp.presentation.ranking
+package com.takamasafukase.ar_gunman_kmp.presentation.presenters.ranking
 
 import com.takamasafukase.ar_gunman_kmp.domain.entities.ranking.RankingItem
 import com.takamasafukase.ar_gunman_kmp.domain.storeInterfaces.RankingStoreInterface

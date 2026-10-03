@@ -1,4 +1,4 @@
-package com.takamasafukase.ar_gunman_kmp.presentation.game.weaponResources
+package com.takamasafukase.ar_gunman_kmp.presentation.presenters.game.weaponResources
 
 import com.takamasafukase.ar_gunman_kmp.deviceInterface.sound.SoundType
 

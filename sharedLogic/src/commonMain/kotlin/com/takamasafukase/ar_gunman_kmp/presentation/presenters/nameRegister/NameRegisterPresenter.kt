@@ -1,4 +1,4 @@
-package com.takamasafukase.ar_gunman_kmp.presentation.nameRegister
+package com.takamasafukase.ar_gunman_kmp.presentation.presenters.nameRegister
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

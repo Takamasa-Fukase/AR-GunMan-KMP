@@ -1,4 +1,4 @@
-package com.takamasafukase.ar_gunman_kmp.presentation.result
+package com.takamasafukase.ar_gunman_kmp.presentation.presenters.result
 
 import com.takamasafukase.ar_gunman_kmp.deviceInterface.sound.SoundPlayerInterface
 import com.takamasafukase.ar_gunman_kmp.domain.entities.ranking.RankingItem

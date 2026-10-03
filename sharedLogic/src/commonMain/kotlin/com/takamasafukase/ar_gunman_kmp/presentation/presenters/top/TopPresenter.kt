@@ -1,4 +1,4 @@
-package com.takamasafukase.ar_gunman_kmp.presentation.top
+package com.takamasafukase.ar_gunman_kmp.presentation.presenters.top
 
 import com.takamasafukase.ar_gunman_kmp.deviceInterface.cameraPermission.CameraPermissionHandlerInterface
 import com.takamasafukase.ar_gunman_kmp.deviceInterface.sound.SoundPlayerInterface

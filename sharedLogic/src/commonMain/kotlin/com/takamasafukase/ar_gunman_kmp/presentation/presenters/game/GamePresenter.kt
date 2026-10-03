@@ -1,4 +1,4 @@
-package com.takamasafukase.ar_gunman_kmp.presentation.game
+package com.takamasafukase.ar_gunman_kmp.presentation.presenters.game
 
 import com.takamasafukase.ar_gunman_kmp.deviceInterface.arShootingEngine.ARShootingEngineHandlerInterface
 import com.takamasafukase.ar_gunman_kmp.deviceInterface.motionSensor.MotionSensorHandlerInterface
@@ -19,7 +19,7 @@ import com.takamasafukase.ar_gunman_kmp.domain.useCases.WeaponChangeUseCaseInter
 import com.takamasafukase.ar_gunman_kmp.domain.useCases.WeaponControlMotionDetectUseCaseInterface
 import com.takamasafukase.ar_gunman_kmp.domain.useCases.WeaponFireUseCaseInterface
 import com.takamasafukase.ar_gunman_kmp.domain.useCases.WeaponReloadUseCaseInterface
-import com.takamasafukase.ar_gunman_kmp.presentation.game.weaponResources.soundResources
+import com.takamasafukase.ar_gunman_kmp.presentation.presenters.game.weaponResources.soundResources
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow
